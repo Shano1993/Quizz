@@ -113,6 +113,7 @@ function answerCheck(userAnswer) {
     }
 }
 
+// score calculation and condition
 function end() {
     $('#score').html("Votre score est de " + totalCorrect + "/10").css({
         "margin-top" : "5rem",
